@@ -138,7 +138,7 @@ if __name__ == "__main__":
             for user_command in commands.COMMANDS:
                 print(user_command)
             for user_list_command in commands.LIST_COMMANDS:
-                print(user_list_command)
+                print(f"list {user_list_command}")
 
         elif command[0] == "quit":
             sys.exit()
